@@ -18,7 +18,10 @@ input#inputville {
   height: 20px;
   margin-top: 46px;
   margin-bottom: 25px;
-  text-align:center;
+  text-align: center;
+  width: 49%;
+  margin-left: 25%;
+  border-radius: 5px;
 }
 button.btn.btn-info.btn-block {
   background: aquamarine;
