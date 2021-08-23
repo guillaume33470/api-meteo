@@ -1,0 +1,64 @@
+/********body******************/
+body {
+  background-image: url("téléchargement.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+/******formulaire de recherche******/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-group {
+  display: contents;
+}
+input#inputville {
+  height: 20px;
+  margin-top: 46px;
+  margin-bottom: 25px;
+}
+button.btn.btn-info.btn-block {
+  background: aquamarine;
+  border: none;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+}
+/*******les box de données****/
+.box-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20%;
+}
+.box {
+  width: 50%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+/********propriétés des differentes box ********/
+#city,
+#temp,
+#humidity,
+#wind {
+  text-align: center;
+}
+#city {
+  background-color: #0000ff2b;
+}
+#temp {
+  background-color: #ff002f73;
+}
+#humidity {
+  background-color: #00bcd473;
+}
+#wind {
+  background-color: #8e8e8d9e;
+}
